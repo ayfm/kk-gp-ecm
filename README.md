@@ -1,2 +1,1 @@
-# kk-gp-ecm
-Kramers–Kronig-Consistent Gaussian Process Prediction of Lithium-Ion Battery Impedance Spectra Across States of Charge (IECON 2026)
+Code and reproduction instructions will be added before the IECON 2026 conference.
