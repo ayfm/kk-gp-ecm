@@ -75,7 +75,7 @@ sampler of qGP-DRT uses one fixed seed per held-out state (`HMC_SEEDS` in `eis/q
 
 ## References
 
-| Item | Source | License |
+| Item | Source |  
 |---|---|---|
 | D1 (LCO/graphite) | Zhang et al., Zenodo, https://doi.org/10.5281/zenodo.3633835 |  
 | D2 (NMC) | Rashid et al., Mendeley Data, https://doi.org/10.17632/mn9fb7xdx6.3 |  
