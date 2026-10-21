@@ -1,0 +1,8 @@
+{
+  "_comment": "State label v in volts of each state of charge (in percent) of D2, read from the open-circuit-voltage curve of the parameter set of Chen et al., J. Electrochem. Soc. 167, 080534 (2020). The labels were not measured on these cells. Read by eis/build_d2.py.",
+  "5": 3.30,
+  "20": 3.59,
+  "50": 3.69,
+  "70": 3.85,
+  "95": 4.15
+}

@@ -1,0 +1,31 @@
+# Conda packages and versions of the environment that computed the outputs in experiments/
+# (Linux x86-64).
+# The code runs on the CPU. The runs used the CUDA 12.4 build of PyTorch.
+#   conda env create -f environment.yml
+#   conda activate kk-gp-ecm
+#   pip install -e .
+name: kk-gp-ecm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.13
+  - numpy=2.4.6
+  - scipy=1.17.1
+  - pandas=3.0.3
+  - pytorch::pytorch=2.5.1
+  - pytorch::pytorch-cuda=12.4
+  - mkl=2022.1.0
+  - joblib=1.5.3
+  - openpyxl=3.1.5
+  - xlrd=2.0.2
+  - coloredlogs=15.0.1
+  - matplotlib=3.10.9
+  - jupyterlab=4.5.7
+  - ipykernel=7.2.0
+  - nbconvert=7.17.1
+  - pip
+  - pip:
+      - impedance==1.7.1

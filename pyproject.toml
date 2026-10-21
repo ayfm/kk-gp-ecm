@@ -1,0 +1,19 @@
+# The package eis is the folder eis/. The versions of its dependencies are in requirements.txt
+# and environment.yml.
+#   pip install -e .
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eis"
+version = "0.1.0"
+description = "Kramers-Kronig-consistent Gaussian process prediction of impedance spectra across states of charge"
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["eis"]
+
+[tool.setuptools.package-data]
+eis = ["quasigp/*.py", "quasigp/LICENSE", "quasigp/SOURCE.md"]

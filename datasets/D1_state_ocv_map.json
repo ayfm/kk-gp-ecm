@@ -1,0 +1,9 @@
+{
+  "_comment": "Nominal state label v in volts of each kept state of the D1 test protocol. The raw files have no voltage column. Read by eis/build_d1.py.",
+  "I": 3.05,
+  "II": 3.40,
+  "III": 3.70,
+  "IV": 4.00,
+  "V": 4.20,
+  "IX": 3.00
+}

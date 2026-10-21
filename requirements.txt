@@ -1,0 +1,15 @@
+# Package versions of the runs that computed the outputs in experiments/ (Python 3.12.13).
+# Install the package eis with: pip install -e .
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.3
+torch==2.5.1
+joblib==1.5.3
+openpyxl==3.1.5
+xlrd==2.0.2
+coloredlogs==15.0.1
+impedance==1.7.1
+matplotlib==3.10.9
+jupyterlab==4.5.7
+ipykernel==7.2.0
+nbconvert==7.17.1
